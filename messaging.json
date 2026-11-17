@@ -1,0 +1,11 @@
+{
+  "publishes": "fulfillment.events",
+  "subscriptions": [
+    {
+      "topic": "ordering.events",
+      "event_types": [
+        "lagoski.ordering.order.confirmed.v1"
+      ]
+    }
+  ]
+}
